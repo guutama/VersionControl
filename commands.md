@@ -13,7 +13,7 @@
 *git checkout* <revision>: updates HEAD and current branch 
 
 
-#Branching and merging
+# Branching and merging
 
 * *git branch*: shows branches
 * *git branch* <name>: creates a branch
@@ -25,7 +25,7 @@ same as git branch <name>; git checkout <name>
 
 
 
-#Remotes
+# Remotes
 
 * *git remote*: list remotes
 * *git remote add* <name> <url>: add a remote
@@ -37,7 +37,7 @@ same as git branch <name>; git checkout <name>
 
 
 
-#Undo
+# Undo
 
 * *git commit* --amend: edit a commit’s contents/message
 * *git reset HEAD* <file>: unstage a file
@@ -46,7 +46,7 @@ same as git branch <name>; git checkout <name>
 
 
 
-#Advanced Git
+# Advanced Git
 
 * *git config*: Git is highly customizable
 * *git clone* --depth=1: shallow clone, without entire version history
