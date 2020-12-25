@@ -11,13 +11,12 @@ After you turned your folder into a git repository, you can se that there is a h
 ```
 ls -a
 ```
-You can also do
-
+To se what is inside **.git** directory. This is the internal directory where git stores all its internal data, namely **objects** and **referenses**
 ```
 ls .git
 
 ```
-To se what is inside **.git** directory. This is the internal directory where git stores all its internal data, namely **objects** and **referenses**
+
 
 # git help <command>
 
@@ -31,6 +30,11 @@ git help init
 # git status
 
 This tells you whats going on in the repository
+
+```
+git status
+
+```
 
 # Staging area
 Is were you put everything you want to include in the next snapshot(next version)  you take. You add your file or folder to the staging area by:
@@ -68,4 +72,7 @@ by
 git commit -m "Your message"
 ```
 
-`
+Its really important to write high quality commit messages, because letter when you looking back in your projects version history,you know why you made certain changes
+
+
+
